@@ -1,0 +1,6 @@
+{
+  "name": "Jungle Monkey Run",
+  "description": "An endless runner mobile game where a playful athletic monkey dashes through an exotic tropical jungle, jumping over obstacles and collecting coins and bananas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Jungle Monkey Run</string>
+    <string name="game_title">JUNGLE MONKEY RUN</string>
+    <string name="play">PLAY</string>
+    <string name="how_to_play">HOW TO PLAY</string>
+    <string name="settings">SETTINGS</string>
+    <string name="run_again">RUN AGAIN</string>
+    <string name="home">HOME</string>
+    <string name="resume">RESUME</string>
+    <string name="restart">RESTART</string>
+    <string name="paused">PAUSED</string>
+    <string name="game_over">GAME OVER</string>
+    <string name="new_best">NEW BEST!</string>
+    <string name="score">SCORE</string>
+    <string name="best">BEST</string>
+    <string name="got_it">GOT IT!</string>
+    <string name="music">Music</string>
+    <string name="sound">Sound</string>
+    <string name="show_tutorial">SHOW TUTORIAL AGAIN</string>
+    <string name="version">Version 1.0.0</string>
+    <string name="back">BACK</string>
+</resources>
