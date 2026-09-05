@@ -27,12 +27,13 @@ jobs:
       - name: Run unit tests
         run: ./gradlew test || gradle test
 
-      - name: Build Android Release APK
-        run: ./gradlew assembleRelease || gradle assembleRelease
+      - name: Build Android APK (Debug Demo and Release)
+        run: |
+          ./gradlew assembleDebug assembleRelease || gradle assembleDebug assembleRelease
 
-      - name: Upload APK Artifact
+      - name: Upload APK Artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: jungle-monkey-run-release-apk
-          path: app/build/outputs/apk/release/*.apk
+          name: jungle-monkey-run-apks
+          path: app/build/outputs/apk/**/*.apk
           if-no-files-found: warn
